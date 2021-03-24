@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Tienda</title>
-    <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -13,14 +13,13 @@
    
     <header class="header__main">
         <div class="header__container-navbar container__flex">
-            <h1 class="header__title">HACIENDA
-                <span class="header__subtitle">BAHIA</span>
-            </h1>
+            <h1 class="header__title">HACIENDA<span class="header__subtitle">BAHIA</span></h1>
+            
             <nav class="header__nav">
                 <span class="header__icon" id="btn-menu">
                     <i class="fas fa-bars"></i>
                 </span>
-                <ul class="header__menu">
+                <ul class="header__menu" id="menu">
                     <li class="header__menu-item">
                         <a href="" class="header__menu-link">
                             <span>Home</span>
@@ -41,6 +40,21 @@
                             <span>Contact</span>
                         </a>
                     </li>
+                    <li class="header__menu-item">
+                        <div class="container__icons">
+                            <div class="icon-container ">
+                               <i class="fab fa-facebook-f centrar"></i>
+                            </div>
+                            <div class="icon-container back-twitter">
+                               <i class="fab fa-twitter centrar"></i>
+                            </div>
+                            <div class="icon-container back-dribbble ">
+                               <i class="fab fa-dribbble centrar"></i>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    
                 </ul>
                 
             </nav>
@@ -68,30 +82,30 @@
     
     <section class="gallery">
         <div class="gallery__item">
-            <h3 class="gallery__title">Frente a Piscinas</h3>
+            <h3 class="gallery__title">Piscinas</h3>
             <img class="gallery__img" src="img/gallery_piscina.jpg" alt="gallery_piscinas">
         </div>
         
         <div class="gallery__item">
-            <h3 class="gallery__title">Frente a Piscinas</h3>
-            <img class="gallery__img" src="img/gallery_piscina.jpg" alt="gallery_piscinas">
+            <h3 class="gallery__title">Dormitorios</h3>
+            <img class="gallery__img" src="https://res.cloudinary.com/dggqauzyy/image/upload/v1616541042/b5wdc3x9htpjll9zzlil.jpg" alt="gallery_piscinas">
         </div>
         
         <div class="gallery__item">
-            <h3 class="gallery__title">Frente a Piscinas</h3>
-            <img class="gallery__img" src="img/gallery_piscina.jpg" alt="gallery_piscinas">
+            <h3 class="gallery__title">Banquetes</h3>
+            <img class="gallery__img" src="https://res.cloudinary.com/dggqauzyy/image/upload/v1616541150/z1lxdymvnmka2hj1xh6c.jpg" alt="gallery_piscinas">
         </div>
         
         <div class="gallery__item">
-            <h3 class="gallery__title">Frente a Piscinas</h3>
-            <img class="gallery__img" src="img/gallery_piscina.jpg" alt="gallery_piscinas">
+            <h3 class="gallery__title">Atención 24h</h3>
+            <img class="gallery__img" src="https://res.cloudinary.com/dggqauzyy/image/upload/v1616541207/zgys71ythcfnrblcsq4y.jpg" alt="gallery_piscinas">
         </div>
     </section>
      
     <section class="testimonials">
         <div class="testimonials__container">
             <h3 class="testimonials__title">TESTIMONIOS</h3>
-            <img class="testimonials__img" src="img/testimonials_user.jpg" alt="">
+            <img class="testimonials__img" src="https://res.cloudinary.com/dggqauzyy/image/upload/v1616540749/agls79hi1rfybt4dw7ly.jpg" alt="">
             <p class="testimonials__txt">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
             <p class="testimonials__name">Richard Doe</p>
         </div>
@@ -100,7 +114,7 @@
     <section class="tips">
        <div class="tips__container-title">
             <h1 class="tips__title">Tips & Recomendaciones </h1>
-            <img class="tips__img" src="img/gallery_piscina.jpg" alt="">
+            <img class="tips__img" src="https://res.cloudinary.com/dggqauzyy/image/upload/v1616541341/lqmy2gr8hhegfl0jfxef.jpg" alt="">
        </div>
         
        <div class="tips__container-body">
@@ -155,9 +169,81 @@
     </section>
        
     
-    <section class="footer">
-        
-    </section>
-        
+    <footer class="footer">
+       <div class="footer__container">
+           <div class="footer__colum">
+               <h2 class="footer__title">COMPAÑIA</h2>
+               <p class="footer__txt">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of Latin at Hampden-Sydney College in Virginia from a Lorem Ipsum passage, undoubtable source.</p>
+               <cite class="footer__author">-Carlos Castilla</cite>
+           </div>
+           
+           <div class="footer__colum">
+               <h2 class="footer__title">TWEETS</h2>
+               <p class="footer__txt"> <i class="fab fa-twitter"></i> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus..</p>
+               <cite class="footer__twitter">http://twitter.com</cite>
+           </div>
+           
+           <div class="footer__colum">
+               <h2 class="footer__title">REDES</h2>
+               <div class="footer_socials">
+                   <div class="social-icon">
+                      <div class="icon-container">
+                           <i class="fab fa-facebook-f centrar"></i>
+                      </div>
+                       <a class="fb__txt">Seguir en Facebook</a>
+                   </div>
+                   <div class="social-icon">
+                      <div class="icon-container back-twitter ">
+                           <i class="fab fa-twitter centrar"></i>
+                      </div>
+                       <a class="fb__txt">Seguir en Twitter</a>
+                   </div>
+                   <div class="social-icon">
+                      <div class="icon-container back-dribbble">
+                           <i class="fab fa-dribbble centrar"></i>
+                      </div>
+                       <a class="fb__txt">Seguir en Dribbble</a>
+                   </div>
+                   <div class="social-icon">
+                      <div class="icon-container back-pinteres">
+                           <i class="fab fa-pinterest centrar"></i>
+                      </div>
+                       <a class="fb__txt">Seguir en Pinterest</a>
+                   </div>
+               </div>
+           </div>
+           
+           <div class="footer__colum">
+               <div class="contact__container">
+                   <h2 class="footer__title">CONTACT</h2>
+                   
+                   <div class="contact__direction contact__flex">
+                       <i class="fas fa-map-marker-alt mr-1"></i>
+                       <p>HaciendoBahia</p>
+                   </div>
+                   <div class="contact__phone contact__flex">
+                       <i class="fas fa-phone-alt mr-1"></i>
+                       <p>946100691</p>
+                   </div>
+                   <div class="contact__email contact__flex">
+                       <i class="fas fa-envelope mr-1"></i>
+                       <p>info@bahia.com</p>
+                   </div>
+               </div>
+           </div>
+       </div>
+       
+       <div class="copyright">
+            <div class="copyright__container">
+                <p>© 2021 Room Design. All Rights Reserved | Design by <span>CarlosC</span>.</p>
+            </div>
+       </div>
+       
+       
+    </footer>
+
+    <script src="main.js"></script>
+
+
 </body>
 </html>
