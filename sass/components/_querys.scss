@@ -1,0 +1,93 @@
+@media screen and (min-width: 768px) {
+    
+    
+    .header__icon{
+        display: none;    
+    }
+    .header__menu {
+        opacity: 1;
+        position: static;
+        display: flex;
+        align-items: center;
+        background: none;
+        font-size: 1em;
+        width: auto;
+        padding: 0px;
+        margin: 10px 0px;
+
+    }
+    .header__banner {
+        min-height: 500px;
+    }
+
+    
+    .welcome {
+        margin-top: 450px;
+    }   
+    .welcome__container {
+        min-height: 300px;
+    }
+
+    
+    .tips__icon {
+        
+    
+    }
+    .tips__instruction {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+    }
+
+    .gallery__item {
+        width: 50%;
+    }
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .tips {
+        display: flex;
+        flex-wrap: wrap;
+        .tips__container-title {
+            width: 50%;
+        }
+        .tips__intructions {
+            width: 50%;
+        }
+    }
+    
+    .tips__img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .footer__colum {
+        width: 23%;
+    }
+   
+}
+@media screen and (min-width: 1280px) {
+    body {
+        background: yellow;
+    }
+    
+    .gallery__title {
+        font-size: 2.5em;
+    }
+    .footer__container{
+    }
+}
+
+
+
+
+
+
+
+
+
+

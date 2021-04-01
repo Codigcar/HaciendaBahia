@@ -11,6 +11,8 @@
 
 .header__title{
     color: $primary;    
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .header__subtitle {

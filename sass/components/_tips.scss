@@ -46,32 +46,45 @@
 }
 
 
-.tips__icon {
-}
+
 
 .fa-cog {
-    color: $primary;
-    font-size: 2em;
-    border: 2px solid $primary;
-    border-radius: 50%;
-    padding: 30px;
+    
 }
 
 .tips__intruction-txt {
 }
 .tips__container-body {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     margin: 40px 10px;
+    padding: 10px;
+}
+.tips__icon {
+    width: 100px;
+    height: 100px;
+    color: $primary;
+    font-size: 2em;
+    border: 2px solid $primary;
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-right: 30px;
+    
 }
 .tips__instruction {
+    width: 70%;
 }
 .tips__intruction-title {
     color: $primary;
     margin-bottom: 20px;
 }
 .tips__intruction-txt {
-    width: 320px;
+    width: auto;
     line-height: 25px;
 }
 
